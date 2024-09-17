@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vos y yo</title>
+    <link rel="stylesheet" href="segunda.css">
+    <link rel="stylesheet" href="segunda.java">
+</head>
+<body>
+    <div class="header">
+        <h1>sabes por que te amo?</h1>
+        <p>por y para vos, cosas lindas que vivimos juntos ❤️</p>
+    </div>
+
+    <div class="audio-player">
+        <button id="playPauseBtn" class="play-btn">&#9658;</button>
+        <audio id="audioPlayer">
+            <source src="Every Breath You Take.mp3" type="audio/mpeg">
+        </audio>
+    </div>    
+
+    <script>
+        const playPauseBtn = document.getElementById('playPauseBtn');
+        const audioPlayer = document.getElementById('audioPlayer');
+        
+        playPauseBtn.addEventListener('click', () => {
+            if (audioPlayer.paused) {
+                audioPlayer.play();
+                playPauseBtn.innerHTML = '&#10074;&#10074;'; // Cambia el icono a pausa
+            } else {
+                audioPlayer.pause();
+                playPauseBtn.innerHTML = '&#9658;'; // Cambia el icono a play
+            }
+        });
+    </script>
+    
+
+    <div class="gallery">
+        <div class="carousel">
+            <div class="slides">
+                <h2>intento que todo esto sea como un album de fotos, y bueno aca nos conocimos</h2>
+                <img src="teamo.jpg" title="cuando te conoci, yo tan lento, vos tan regia">
+                <h2>21 de abril, 2024</h2><br>
+
+                <h2>por casualidad o destino nos encontramos y salimos</h2>
+                <img src="pancho.jpg">
+                <h2>23 de abril, 2024</h2><br>
+
+                <h2>poco a poco me fuiste enamorando</h2>
+                <img src="espejo.jpg">
+                <h2>no me acorde perdom, 2024</h2>
+
+                <h2>en cada salida</h2>
+                <img src="linda.jpg">
+                <h2></h2><br>
+
+                <h2>por como sos y tus pecas hermosas</h2>
+                <img src="cabezas.jpg">
+                <h2></h2><br>
+
+                <h2>el dia que te robaron, senti una impotencia y al mismo tiempo un sentimiendo de querer cuidarte siempre</h2>
+                <img src="hermosa.jpg">
+                <h2>26 de junio, 2024</h2>
+
+                <h2>con esa mirada asesina hipnotizas y lo sabes</h2>
+                <img src="pff.jpg">
+                <h2></h2><br>
+
+                <h2>sos una luz que ilumina amor</h2>
+                <img src="lentes.jpg">
+                <h2>31 de mayo, 2024</h2><br>
+
+                <h2>me senti tan feliz de tener un minicumpleaños juntos, y hamacarnos</h2>
+                <img src="torta.jpg">
+                <h2>19 de julio, 2024</h2>
+
+                <h2>y a la semana me dio miedo esperar 12 años para tenerte devuelta</h2>
+                <img src="manicura.jpg">
+                <h2>7 de agosto, 2024</h2><br>
+
+                <h2>es tan divertido vivir mi vida con vos</h2>
+                <img src="rojo.jpg">
+                <h2>20 de junio, 2024</h2>
+
+                <h2></h2>
+                <img src="pito.jpg">
+                <h2>10 de junio</h2>
+
+                <h2>y amar a una persona que se lo merece</h2>
+                <img src="patito.jpg">
+                <h2>5 de junio, 2024</h2>
+
+                <h2></h2>
+                <img src="alcohol.jpg">
+                <h2>8 de julio</h2>
+
+                <h2>pero por estas cosas tenerte de novia se me hace loquisimo</h2>
+                <img src="nobebes.jpg" title="algun dia tengamos uno">
+                <h2>2 de julio, 2024</h2>
+
+                <h2>cada lugar esta marcado por vos</h2>
+                <img src="baggio.jpg">
+                <h2>10 de junio, 2024</h2>
+
+                <h2></h2>
+                <img src="brown.jpg" title="novia shitposter">
+                <h2>11 de septiembre, 2024</h2><br>
+
+                <h2>yo creo que esta imagen es el sueño de cualquiera, las dos mas hermosas conmigo</h2>
+                <img src="guitarra.jpg">
+                <h2>11 de septiembre, 2024</h2>
+
+                <h2>la realidad es que vos me provocas todo esto, sin amor no hay motor, y quiero crear muchos mas momentos lindos con vos</h2>
+                <img src="manos.jpg" title="te amo como nunca antes ame">
+                <h2>6 de septiembre, 2024</h2>
+            </div>
+        </div>
+    </div>
+    <div class="hearts">
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+    </div>
+
+    <footer>
+        <p>Te amo más de lo que podes imaginar pecas. 💖</p>
+    </footer>
+</body>
+</html>
+
+</body>
+</html>
